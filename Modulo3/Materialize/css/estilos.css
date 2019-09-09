@@ -1,0 +1,37 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.btn-small {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#galeria {
+  /* Arriba | Derecha | Abajo | Izquierda */
+/*  margin: 20% 0.5% 0.5% 0.5%;
+  text-align:justify;*/
+  margin: 30px 1px 1px 1px;
+}
+
+input, label, i {
+  color:white !important;
+}
+
+
+/*
+/* Color e imagen de fondo de la página mediante una propiedad shorthand */
+/*body { background: #222d2d url(./graphics/colorstrip.gif) repeat-x 0 0; }*/
+
+/* La propiedad shorthand anterior es equivalente a las siguientes propiedades */
+/*body {
+background-color: transparent;
+  background-color: #222d2d;
+  background-image: url("./graphics/colorstrip.gif");
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+*/

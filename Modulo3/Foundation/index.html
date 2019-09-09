@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Blog de Gastronomía</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="row" style="background:rgba(189, 189, 189, 0.8)" id="contenedor">
+      <!-- Columna Izquierda -->
+      <div class="column large-4 show-for-large columna-izquierda">
+        <!-- Nombre del Blog -->
+        <div class="column blog" style="color:white; border-right:2px solid white;">
+          <h2>Cocinando</h2>
+        </div>
+        <div class="column slogan" style="color:white; text-align:right; border-right:2px solid white;">
+          <h5>El Blog de los amantes de la Gastronomía</h5>
+        </div>
+        <div class="column separador"></div>
+        <!-- Botón de Búsqueda -->
+        <div class="column" style="background-color: #EBF8FB">
+          <div class="column small-10 medium-10 large-10">
+            <div><input type="search" placeholder="" style="margin-top:10px" id="input-left"/></div>
+          </div>
+          <div class="column small-2 medium-2 large-2">
+            <div class="float-right">
+              <a class="button large publicar" href="#" style="margin-top:10px">
+                <i class="step fi-magnifying-glass"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Menú Vertical -->
+        <div class="column" style="background-color: #EBF8FB">
+          <div class="button-group expanded">
+            <ul class="vertical menu">
+              <li><a href="#" class="hollow success large expanded button">Inicio</a></li>
+              <li><a href="#" class="hollow success large expanded button">Mi plato perfecto</a></li>
+              <li><a href="#" class="hollow success large expanded button">Mis recetas</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sección Favoritos -->
+        <div class="column" style="background-color: #EBF8FB">
+          <h6>Favoritos:</h6>
+          <div class="row">
+            <div class="column">
+              <div class="clearfix">
+                <img src="img/postre1.jpg" class="thumbnail favoritos"/>
+                <img src="img/postre2.jpg" class="thumbnail favoritos"/>
+                <img src="img/postre3.jpg" class="thumbnail favoritos"/>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="clearfix">
+                <img src="img/postre4.jpg" class="thumbnail favoritos"/>
+                <img src="img/postre5.jpg" class="thumbnail favoritos"/>
+                <img src="img/postre6.jpg" class="thumbnail favoritos"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sección Historial -->
+        <div class="column" style="background-color: #EBF8FB">
+          <h6>Historial:</h6>
+          <div class="row" >
+            <div class="column">
+              <ul class="vertical menu">
+                <li><a href="#" class="enlace">Enlace 1</a></li>
+                <li><a href="#" class="enlace">Enlace 2</a></li>
+                <li><a href="#" class="enlace">Enlace 3</a></li>
+                <li><a href="#" class="enlace">Enlace 4</a></li>
+                <li><a href="#" class="enlace">Enlace 5</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- class="column large-4 show-for-large columna-izquierda" -->
+      <!-- Columna Derecha -->
+      <div class="column large-8 columna-derecha">
+        <div class="column large-12 show-for-large blog"></div>
+        <div class="column large-12 show-for-large slogan"></div>
+        <div class="column large-12 show-for-large separador"></div>
+        <!-- Primer Articulo -->
+        <div class="column">
+          <div class="expanded row" style="background-color: #F9D6F4">
+            <div class="articulo">
+              <h4>Pasta artesanal</h4>
+              <h6><em>18 de Enero de 2019</em></h6>
+              <img src="img/pasta.jpg" class="thumbnail"/>
+              <p>
+                La pasta es un conjunto de alimentos preparados con una masa cuyo ingrediente básico es la harina, mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes, conformando un producto que generalmente se cuece en agua hirviendo.
+
+                Aunque cualquier harina sirve para este propósito, en Oriente son habituales la harina de alforfón (Fagopyrum esculentum) o de arroz (Oryza sativa), mientras que la mayor parte de las recetas occidentales siguen la tradición italiana (por ejemplo, la tradición de pasta emiliana, pasta de Campania, pasta de Liguria, etc.), por lo tanto emplean harina de trigo candeal (Triticum durum).Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <label>Escribe un comentario:
+                <textarea placeholder="" id="text-comentario"></textarea>
+              </label>
+              <div class="float-right"><a href="#" class="button publicar"><i class="step fi-pencil"></i>Publicar</a></div>
+            </div>
+          </div>
+          <!-- Conentarios Primer Articulo -->
+          <div class="expanded row" style="background-color: #F9D6F4">
+            <div class="float-left">
+              <img src="img/woman.svg" class="thumbnail" width="50px" height="50px"/>
+            </div>
+            <div id="div-right"><textarea placeholder="none" id="comentario">KarlaF: "Esto es un comentario"</textarea></div>
+          </div>
+          <div class="expanded row" style="background-color: #F9D6F4">
+            <div class="float-left">
+              <img src="img/man.svg" class="thumbnail" width="50px" height="50px"/>
+            </div>
+            <div id="div-right"><textarea placeholder="none" id="comentario">LeoM: "Esto es un comentario"</textarea></div>
+          </div>
+          <div class="expanded row" style="background-color: #F9D6F4">
+            <div class="float-left">
+              <img src="img/boy.svg" class="thumbnail" width="50px" height="50px"/>
+            </div>
+            <div id="div-right"><textarea placeholder="none" id="comentario">ToñoB: "Esto es un comentario"</textarea></div>
+          </div>
+        </div> <!-- class="column" -->
+        <!-- Segundo Articulo -->
+        <div class="column">
+          <div class="expanded row" style="background-color: #F9D6F4; margin-top:10px">
+            <div class="articulo">
+              <h4>Los mejores jugos naturales para adelgazar</h4>
+              <h6><em>4 de Noviembre de 2018</em></h6>
+              <img src="img/jugo.jpg" class="thumbnail"/>
+              <p>
+                 El jugo o zumo de frutas es una sustancia líquida extraída de las frutas, generalmente al exprimirlas por presión, sin embargo, puede incluir un conjunto de procesos intermedios como la: cocción, molienda o centrifugación del producto original. Así, por ejemplo, el "jugo de naranja" es el líquido extraído de la fruta del naranjo. A menudo se venden jugos envasados, que durante la elaboración pasan por un proceso que hace que pierdan parte de sus propiedades nutricionales.
+              </p>
+              <label>Escribe un comentario:
+                <textarea placeholder="" id="text-comentario"></textarea>
+              </label>
+              <div class="float-right"><a href="#" class="button publicar"><i class="step fi-pencil"></i>Publicar</a></div>
+            </div>
+          </div>
+          <!-- Comentarios Segundo Articulo -->
+          <div class="expanded row" style="background-color: #F9D6F4">
+            <div class="float-left">
+              <img src="img/girl.svg" class="thumbnail" width="50px" height="50px"/>
+            </div>
+            <div id="div-right"><textarea placeholder="none" id="comentario">ZuryF: "Esto es un comentario"</textarea></div>
+          </div>
+        </div> <!-- class="column" -->
+      </div> <!--  class="column large-8 columna-derecha" -->
+    </div> <!-- class="row" style="background-color: #BDBDBD" -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

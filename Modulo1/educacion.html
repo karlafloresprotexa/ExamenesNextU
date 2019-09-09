@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Fundamentos de HTML: Evaluación Final</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image width="250px" height="250px" xlink:href="imagenes/logo_svg.svg"></image>
+      </svg>
+    	<h1>Curriculum Vitae</h1>
+      <h2>Karla Henna Isabel Flores Nieto</h2>
+      <h3>04/Noviembre/1973 - México, D.F.</h3>
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="educacion.html">Educación</a> |
+      <a href="experiencia.html" target="_blank">Experiencia</a>
+    </nav>
+    <br>
+    <section>
+      <h2>Educación</h2>
+      <article>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1991</td>
+              <td>Centro de Bachillerato Tecnológico Industrial y de Servicios No. 30</td>
+              <td>Veracruz</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1995</td>
+              <td>Instituto Tecnológico de Cerro Azul</td>
+              <td>Veracruz</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Universidad Cristiana Hispanoamericana</td>
+              <td>Nuevo León</td>
+              <td>Cursando</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+      </article>
+      <article>
+        <form>
+          <fieldset>
+             <legend>Agregar Estudios</legend>
+             <p>
+               <label for="Año">Año</label><br>
+               <select name="Año">
+                 <option>1996</option>
+                 <option>1997</option>
+                 <option>1998</option>
+                 <option>1999</option>
+                 <option>2000</option>
+                 <option>2001</option>
+                 <option>2002</option>
+                 <option>2003</option>
+                 <option>2004</option>
+                 <option>2005</option>
+                 <option>2006</option>
+                 <option>2007</option>
+                 <option>2008</option>
+                 <option>2009</option>
+                 <option>2010</option>
+                 <option>2011</option>
+                 <option>2012</option>
+                 <option>2013</option>
+                 <option>2014</option>
+                 <option>2015</option>
+                 <option>2016</option>
+                 <option>2017</option>
+                 <option>2018</option>
+                 <option>2019</option>
+               </select>
+             </p>
+             <p>
+               <label for="Institucion">Institución</label><br>
+               <input type="text" name="Institucion" required>
+         		 </p>
+             <p>
+               <label for="Lugar">Lugar</label><br>
+               <textarea name="Lugar" rows="3" cols="70"></textarea>
+             </p>
+             <p><br/>
+               <input type="submit" value="Enviar">
+             </p>
+          </fieldset>
+        </form>
+        <br>
+      </article>
+    </section>
+  </body>
+  <footer>karla.flores@protexa.com.mx - 8183992626 - Carretera Monterrey-Saltillo Km. 339, Col. Los Treviño, Santa Catarina, N.L. México</footer>
+</html>

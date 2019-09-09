@@ -1,0 +1,92 @@
+body {
+  background-image: url("../img/cocina.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.blog, .slogan {
+  background:rgba(189, 189, 189, 0.5);
+  height: 75px;
+}
+
+.slogan {
+  margin-bottom: 0.5rem;
+}
+
+.separador {
+  background-color: white;
+  height: 3px;
+  margin-bottom: 15px;
+}
+
+.columna-izquierda {
+  color: purple;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.columna-derecha {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+
+a, h6 {
+  color: purple !important;
+}
+
+.button.hollow.success {
+  border: 1px solid purple;
+}
+
+.busqueda, .publicar {
+  background-color: purple !important;
+  color: white !important;
+}
+
+.favoritos {
+  width: 110px;
+  height: 110px;
+}
+
+#input-left
+{
+  height:60px;
+}
+
+#div-right
+{
+  overflow:hidden;
+  height:50px;
+}
+
+#text-comentario {
+  margin: 0;
+}
+
+#comentario {
+  background-color: #F9D6F4;
+}
+
+.articulo {
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 10px 10px 0 10px;
+  text-align:justify;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .favoritos {
+     width: 90px;
+     height: 90px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .publicar {
+    float: right;
+  }
+
+}
