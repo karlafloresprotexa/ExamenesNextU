@@ -1,19 +1,24 @@
 body {
+  background-color: rgba(3, 169, 244, 0.5);
   background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-position-y: 150px;
 }
 
+h6, p {
+  margin: 3%;
+  text-align: justify;
+}
+/*
 .btn-small {
   margin-top: 20px;
   margin-right: 20px;
 }
-
+*/
 #galeria {
   /* Arriba | Derecha | Abajo | Izquierda */
-/*  margin: 20% 0.5% 0.5% 0.5%;
-  text-align:justify;*/
   margin: 30px 1px 1px 1px;
 }
 
@@ -21,17 +26,73 @@ input, label, i {
   color:white !important;
 }
 
+@media (min-width:320px) and (max-width:420px){
+
+label {
+  font-size: 10px !important;
+}
+
+}
+
+
+@media (min-width:421px){
+
+label {
+  font-size: 14px !important;
+}
+
+}
+
 
 /*
-/* Color e imagen de fondo de la página mediante una propiedad shorthand */
-/*body { background: #222d2d url(./graphics/colorstrip.gif) repeat-x 0 0; }*/
+@media (max-width:360px){
 
-/* La propiedad shorthand anterior es equivalente a las siguientes propiedades */
-/*body {
-background-color: transparent;
-  background-color: #222d2d;
-  background-image: url("./graphics/colorstrip.gif");
-  background-repeat: repeat-x;
-  background-position: 0 0;
-}
+  #img-logo {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .boton-simple {
+    margin-top: 10px;
+    height: 50px;
+    width: 55px;
+    margin-left: 20px;
+  }
+/*
+  #nav-completo {
+    display: none;
+  }
+
+  #nav-simple {
+    display: inline-flex;
+  }
 */
+}
+
+/*
+@media (min-width:791) {
+
+  #img-logo {
+    width:120px;
+    height: 120px;
+    margin-left:50px;
+    margin-top:20px;
+  }
+
+  .btn-small {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+/*
+  #nav-simple {
+    display: none;
+  }
+
+  #nav-completo {
+    display: inline-flex;
+  }
+*/
+}

@@ -2,6 +2,7 @@ body {
   font-family: 'Dancing Script',cursive;
   font-size: 1.2em;
   color: black !important;
+  background-color: #BF5545;
 }
 
 .img-logo {
@@ -40,7 +41,7 @@ h3, h4 {
 }
 
 /* TAMAÑO MÁXIMO: 320px PARA CELULARES */
-@media (max-width:320px) {
+@media (max-width:360px) {
 
   .img-blog {
     width: 100%;
@@ -62,7 +63,7 @@ h3, h4 {
 }
 
 /* DE 321 EN ADELANTE PARA TABLES Y COMPUTADORAS */
-@media (min-width:321px) {
+@media (min-width:361px) {
 
   .img-redes {
     float: right;
